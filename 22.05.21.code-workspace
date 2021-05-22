@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "Guitar-Kings",
+		"path": "."
+	},
+	{
+		"path": "..\\..\\..\\Downloads\\images - handmade guitars\\assets"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Guitar-Kings",
+    "liveServer.settings.port": 5501
+  }
+}

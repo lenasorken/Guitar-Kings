@@ -1,3 +1,27 @@
+h1 {
+  font-family: "Boots And Spurs";
+}
+
+@font-face {
+  font-family: "Boots And Spurs";
+  src: url("fonts/BootsAndSpurs.ttf") format("truetype");
+}
+
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+.logo {
+  font-family: "boots and spurs", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+
+.product-list h2 {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header,
 footer {
   background-color: #202020;
@@ -13,10 +37,12 @@ header a {
   color: #fff;
   font-size: 1.5em;
 }
+
 .reviews {
   background-color: #e8e8e8;
 }
-.feautured--products {
+
+.featured--products {
   background-color: #fbfbfb;
 }
 
