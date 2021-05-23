@@ -1,25 +1,19 @@
-h1 {
-  font-family: "Boots And Spurs";
-}
-
 @font-face {
   font-family: "Boots And Spurs";
   src: url("fonts/BootsAndSpurs.ttf") format("truetype");
 }
 
-body {
-  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-Regular.ttf");
 }
 
-h1,
-h2,
-.logo {
-  font-family: "boots and spurs", "Segoe UI", Tahoma, Geneva, Verdana,
-    sans-serif;
+nav ul {
+  padding: 0px;
 }
 
-.product-list h2 {
-  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+nav li {
+  display: inline-block;
 }
 
 header,
@@ -28,14 +22,59 @@ footer {
   color: #fff;
 }
 
+/* Links */
+a {
+  text-decoration: none;
+}
+
 header a {
   color: #fff;
+}
+
+h1,
+h2,
+.logo {
+  font-family: "Boots And Spurs", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product-list h2 {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-family: "Roboto";
+}
+
+.header_logo {
+  background-image: url("images/home-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  min-height: 70vh;
 }
 
 .cta {
   background-color: #bb0000;
   color: #fff;
   font-size: 1.5em;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  padding: 10px 80px;
+  border-radius: 5px;
+}
+
+.cta-small {
+  padding: 8px 30px;
+  font-size: 0.8em;
+}
+
+.current {
+  text-decoration: underline;
 }
 
 .reviews {
@@ -50,6 +89,22 @@ header a {
   background-color: #127300;
 }
 
+.review_images {
+  border-radius: 50%;
+}
+
+.guitar_image {
+  border-radius: 100px;
+}
+
 footer {
   text-align: center;
+}
+
+/* Contact page */
+input,
+select,
+textarea {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
 }
