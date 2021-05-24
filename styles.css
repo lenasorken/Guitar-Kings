@@ -29,6 +29,7 @@ a {
 
 header a {
   color: #fff;
+  padding: 10px;
 }
 
 h1,
@@ -56,9 +57,17 @@ p {
   background-position-x: right;
   background-position-y: bottom;
   min-height: 70vh;
+  position: relative;
 }
 
-.cta {
+.header_logo_content {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 100px;
+}
+
+.position .cta {
   background-color: #bb0000;
   color: #fff;
   font-size: 1.5em;
@@ -71,6 +80,7 @@ p {
 .cta-small {
   padding: 8px 30px;
   font-size: 0.8em;
+  background-color: #bb0000;
 }
 
 .current {
