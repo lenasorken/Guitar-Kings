@@ -16,6 +16,15 @@ nav li {
   display: inline-block;
 }
 
+header {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  margin-left: 25px;
+}
+
 header,
 footer {
   background-color: #202020;
@@ -81,18 +90,27 @@ p {
   padding: 8px 30px;
   font-size: 0.8em;
   background-color: #bb0000;
+  font-family: "Roboto";
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 
 .current {
   text-decoration: underline;
 }
 
+.products {
+  background-color: #fbfbfb;
+}
+
 .reviews {
   background-color: #e8e8e8;
 }
 
-.featured--products {
+.featured {
   background-color: #fbfbfb;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .cta-sale {
@@ -101,6 +119,11 @@ p {
 
 .review_images {
   border-radius: 50%;
+}
+
+.guitar {
+  max-width: 100px;
+  margin: 50px auto;
 }
 
 .guitar_image {
