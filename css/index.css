@@ -1,0 +1,87 @@
+.header_logo {
+    background-image: url("../images/home-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 70vh;
+    position: relative;
+  }
+  
+  .header_logo_content {
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 210px;
+  }
+  
+  .reviews {
+    background-color: #e8e8e8;
+  }
+  
+  .featured {
+    background-color: #fbfbfb;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .selling-points {
+    margin: 50px auto;
+  }
+  
+  .selling-points h2 {
+    text-align: center;
+  }
+  
+  .selling-points, 
+  .reviews_content {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .selling-points > *,
+  .reviews_content > * {
+    flex: 1;
+  }
+  
+  .guitar_image {
+    border-radius: 100px;
+  }
+  
+  .reviews {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .reviews_content {
+    text-align: left;
+    margin: auto;
+  }
+  
+  .reviews_content div {
+    margin: 20px;
+  }
+  
+  .review_images {
+    width: 80px;
+    border-radius: 50%;
+    float: right;
+  }
+  
+  .reviews_name {
+    display: block;
+  }
+  
+  .featured {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    margin: 50px auto;
+    grid-gap: 10px;
+  }
+  
+  .featured h2 {
+    grid-column: -1/1;
+  }

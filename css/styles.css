@@ -1,0 +1,111 @@
+@import "imports/links.css";
+@import "imports/variables.css";
+
+@font-face {
+  font-family: "Boots And Spurs";
+  src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+nav {
+  margin-left: 25px;
+  display: none;
+  position: fixed;
+  top: 45px;
+  background: var(--header-footer);
+  z-index: 1000;
+  right: 0;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+  padding: 20px 30px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+header,
+footer {
+  background-color: var(--header-footer);
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+.logo {
+  font-family: var(--text-heading), Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: var(--text-paragraph), Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.product-list h2 {
+  font-family: var(--text-paragraph), Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.products {
+  background-color: #fbfbfb;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.products img {
+  grid-column: -1/1;
+}
+
+.products h3,
+.products h2,
+.productp p {
+  grid-column: 1;
+  font-size: 0.9em;
+  margin: 5px;
+  text-align: left;
+}
+
+.products-sale {
+  display: flex
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+.cta-sale {
+  background-color: #127300;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
